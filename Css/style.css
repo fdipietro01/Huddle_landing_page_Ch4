@@ -1,294 +1,379 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-:root {
-    --pink: hsl(322, 100%, 66%);
-    --light-pink: hsl(321, 100%, 78%);
-    --light-red: hsl(0, 100%, 63%);
-    --dark-cyan: hsl(192, 100%, 9%);
-    --dark-pale-blue: hsl(207, 100%, 98%);
-}
-
-.body {
-    max-width: 100%;
-    margin: auto;
-    font-family: Poppins;
-}
-
-.main-button {
-    background-color: var(--light-pink);
-    color: white;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 2em;
-    border-radius: 50px;
-    margin: 20px;
-    padding: 20px 100px;
-    border: none;
-    box-shadow: 7px 4px var(--dark-pale-blue), -7px 4px var(--dark-pale-blue);
-}
-
-.header {
-    display: grid;
-    grid-template-rows: 40% 10% 20% 30%;
-    min-height: 650px;
-    margin-bottom: 40x;
-}
-
-.head-tittle {
-    grid-row: 1/2;
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 75px 175px;
-}
-
-.main-tittle {
-    grid-row: 2/3;
-    align-self: end;
-    justify-self: center;
-    font-size: 46px;
-    margin-bottom: 30px;
-}
-
-.p-subtittle {
-    grid-row: 3/4;
-    text-align: center;
-    padding: 0 32%;
-    align-self: center;
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-.but-join1 {
-    grid-row: 4/5;
-    justify-self: center;
-    align-self: start;
-}
-
-.subtittle {
-    display: inline;
-    font-size: 50px;
-}
-
-.head-sentence {
-    font-size: 24px;
-}
-
-.img-msg {
-    width: 46px;
-}
-
-.but-try {
-    font-size: 16px;
-    width: 140px;
-    height: 2.75em;
-    border: 2px solid var(--light-pink);
-    background-color: white;
-    padding: 6px 0px;
-    border-radius: 30px;
-    color: var(--light-pink);
-    margin-top: 20px;
-}
-
-.rates {
-    display: grid;
-    grid-template-rows: 70% 30%;
-    margin-bottom: 75px;
-}
-
-.img-container {
-    grid-row: 1/2;
-    justify-self: center;
-}
-
-.rate-box {
-    grid-row: 2/3;
-    justify-self: center;
-    align-self: end;
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    margin-top: 100px;
-}
-
-.message{
-    margin-right: 180px;
-}
-.follows {
-    margin-left: 180px;
-}
-.message-2,
-.follows-2 {
-    font-size: 100px;
-    font-weight: 600;
-}
-
-.features {
-    margin-bottom: 50px;
-    padding: 50px 0;
-}
-
-.feat-container{
-    padding-top: 10%;
-    padding-bottom: 8%;
-    background-image: url(../Assets/Images/bg-section-top-desktop-1.svg), url(../Assets/Images/bg-section-bottom-desktop-1.svg);
-    background-position: top, bottom; 
-    background-repeat: no-repeat, no-repeat;
-    background-size: contain, contain;
-}
-.feat-container2{
-    padding-top: 65px;
-    padding-bottom: 65px;
-}
-
-.feat-container3{
-    padding-top: 10%;
-    padding-bottom: 8%;
-    background-image: url(../Assets/Images/bg-section-top-desktop-2.svg), url(../Assets/Images/bg-section-bottom-desktop-2.svg);
-    background-position: top, bottom; 
-    background-repeat: no-repeat, no-repeat;
-    background-size: contain, contain;
-}
-
-.feat {
-    display: flex;
-    max-width: 100%;
-    justify-content: space-evenly;
-    background-color: var(--dark-pale-blue);  
-    position: relative;
-}
-
-.feat2{
-    background-color: white;
-}
-
-
-.box {
-    max-width: 32%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.box2 {
-    max-width: 36%;
-}
-
-.resize {
-    width: 550px;
-}
-
-.sech3 {
-    font-size: 38px;
-    margin-bottom: 20px;
-}
-
-.join {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 70px 0px 200px;
-}
-
-.build,
-.but-join2 {
-    display: block;
-}
-
-.build {
-    font-size: 38px;
-    margin-bottom: 15px;
-}
-
-.footer{
-    background-image: url(../Assets/Images/bg-footer-top-desktop.svg);
-    background-size: contain;
-    padding-top: 10.5%;
-}
-
-.footer-container{
-    background-color: var(--dark-cyan);
-    color:white;
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 0px 100px 12%;
-}
-
-.l-footer, .r-footer{
-    max-width: 70%;
-}
-
-.l-footer-2, .r-footer-2{
-    max-width: 40%;
-    font-size: 12px;
-    color: rgb(212, 211, 211);
-}
-.footer-tittle{
-display:inline-block;
-font-size: 46px;
-padding-left: 10px;
-color: white;
-}
-.image{
-    color: white;
-    height: 34px;
-}
-
-.l-footer-3, .l-footer-4{
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-    font-size: 13px;
-    color: rgb(212, 211, 211);
-}
-
-.img{
-    margin-right:20px;
-    height: 15px;
-}
-
-.social-media{
-    margin-top: 75px;
-    display: flex;
-    max-width: 15%;
-    justify-content: space-between;
-}
-
-.icon{
-    font-size: 30px;
-}
-
-.news-tittle{
-    font-size: 18px;
-}
-
-.r-footer{
-    display: flex;
-    flex-direction: column;
-    max-height: 180px;
-    justify-content: space-between;
-}
-.r-footer-3{
-    width: 65%;
-}
-.input{
-    height: 30px;
-    width: 260px;
-    border-radius: 5px;
-    border-style: none;
-    margin-right: 30px;
-}
-
-.suscribe{
-    background-color: var(--light-pink);
-    color: white;
-    font-weight: 700;
-    font-size: 12px;
-    border-radius: 5px;
-    border: none;
-    padding: 8px 28px;
-
-}
+                                    * {
+                                        margin: 0;
+                                        padding: 0;
+                                    }
+                                    
+                                    .wrapper {
+                                        max-width: 100%;
+                                    }
+                                    
+                                     :root {
+                                        --pink: hsl(322, 100%, 66%);
+                                        --light-pink: hsl(321, 100%, 78%);
+                                        --light-red: hsl(0, 100%, 63%);
+                                        --dark-cyan: hsl(192, 100%, 9%);
+                                        --dark-pale-blue: hsl(207, 100%, 98%);
+                                    }
+                                    
+                                    .body {
+                                        max-width: 100%;
+                                        margin: auto;
+                                        font-family: Poppins;
+                                    }
+                                    
+                                    .main-button {
+                                        background-color: var(--light-pink);
+                                        color: white;
+                                        font-weight: 700;
+                                        font-size: 20px;
+                                        line-height: 2em;
+                                        border-radius: 50px;
+                                        margin: 20px;
+                                        padding: 20px 100px;
+                                        border: none;
+                                        box-shadow: 7px 4px var(--dark-pale-blue), -7px 4px var(--dark-pale-blue);
+                                    }
+                                    
+                                    .main-button:hover {
+                                        cursor: pointer;
+                                        background-color: white;
+                                        color: var(--light-pink);
+                                        border: 2px var(--light-pink) solid;
+                                    }
+                                    
+                                    .header {
+                                        margin-bottom: 40x;
+                                    }
+                                    
+                                    .head-tittle {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        margin: 80px 75px 175px;
+                                    }
+                                    
+                                    .main-tittle {
+                                        font-size: 46px;
+                                        margin-bottom: 30px;
+                                        text-align: center;
+                                    }
+                                    
+                                    .pwrapper {
+                                        margin: 0 auto;
+                                        max-width: 50%;
+                                        margin-bottom: 30px;
+                                    }
+                                    
+                                    .p-subtittle {
+                                        text-align: center;
+                                        font-size: 20px;
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .but-join1-wrapper {
+                                        display: flex;
+                                        justify-content: center;
+                                        margin-bottom: 100px;
+                                    }
+                                    
+                                    .head-sentence {
+                                        font-size: 24px;
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .but-try {
+                                        font-size: 16px;
+                                        width: 140px;
+                                        height: 2.75em;
+                                        border: 2px solid var(--light-pink);
+                                        background-color: white;
+                                        padding: 6px 0px;
+                                        border-radius: 30px;
+                                        color: var(--light-pink);
+                                    }
+                                    
+                                    .but-try:hover {
+                                        cursor: pointer;
+                                        color: white;
+                                        background-color: var(--light-pink);
+                                    }
+                                    
+                                    .img-container {
+                                        display: flex;
+                                        justify-content: center;
+                                    }
+                                    
+                                    .img-contain {
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .main-img {
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .rate-box {
+                                        display: flex;
+                                        margin: auto;
+                                        margin-top: 100px;
+                                        justify-content: space-around;
+                                        flex-wrap: wrap;
+                                    }
+                                    
+                                    .follows {
+                                        margin-left: 100px;
+                                    }
+                                    
+                                    .message {
+                                        margin-right: 100px;
+                                    }
+                                    
+                                    .message-2,
+                                    .follows-2 {
+                                        font-size: 90px;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .message-3,
+                                    .follows-3 {
+                                        text-align: center;
+                                        color: gray;
+                                        font-size: 20px;
+                                    }
+                                    
+                                    .features {
+                                        padding: 50px 0;
+                                    }
+                                    
+                                    .feat-container {
+                                        padding-top: 10%;
+                                        padding-bottom: 8%;
+                                        background-image: url(../Assets/Images/bg-section-top-desktop-1.svg), url(../Assets/Images/bg-section-bottom-desktop-1.svg);
+                                        background-position: top, bottom;
+                                        background-repeat: no-repeat, no-repeat;
+                                        background-size: contain, contain;
+                                    }
+                                    
+                                    .feat-container2 {
+                                        padding-top: 65px;
+                                        padding-bottom: 65px;
+                                    }
+                                    
+                                    .feat-container3 {
+                                        max-width: 100%;
+                                        padding-top: 10%;
+                                        padding-bottom: 8%;
+                                        background-image: url(../Assets/Images/bg-section-top-desktop-2.svg), url(../Assets/Images/bg-section-bottom-desktop-2.svg);
+                                        background-position: top, bottom;
+                                        background-repeat: no-repeat, no-repeat;
+                                        background-size: contain, contain;
+                                    }
+                                    
+                                    .feat {
+                                        display: flex;
+                                        max-width: 100%;
+                                        justify-content: space-evenly;
+                                        background-color: var(--dark-pale-blue);
+                                        position: relative;
+                                        flex-wrap: wrap;
+                                    }
+                                    
+                                    .feat2 {
+                                        background-color: white;
+                                    }
+                                    
+                                    .box {
+                                        max-width: 32%;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                    }
+                                    
+                                    .box2 {
+                                        max-width: 36%;
+                                    }
+                                    
+                                    .resize {
+                                        max-width: 100%;
+                                        width: 550px;
+                                    }
+                                    
+                                    .sech3 {
+                                        font-size: 38px;
+                                        margin-bottom: 20px;
+                                    }
+                                    
+                                    .join {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        padding: 70px 0px 200px;
+                                    }
+                                    
+                                    .build,
+                                    .but-join2 {
+                                        display: block;
+                                    }
+                                    
+                                    .build {
+                                        font-size: 38px;
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    .footer {
+                                        background-image: url(../Assets/Images/bg-footer-top-desktop.svg);
+                                        background-size: contain;
+                                        padding-top: 10.5%;
+                                    }
+                                    
+                                    .footer-container {
+                                        background-color: var(--dark-cyan);
+                                        color: white;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        padding: 100px 0px 100px 12%;
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .l-footer,
+                                    .r-footer {
+                                        max-width: 70%;
+                                    }
+                                    
+                                    .r-footer-1 {
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .l-footer-2,
+                                    .r-footer-2 {
+                                        max-width: 40%;
+                                        font-size: 12px;
+                                        color: rgb(212, 211, 211);
+                                    }
+                                    
+                                    .footer-tittle {
+                                        display: inline-block;
+                                        font-size: 46px;
+                                        padding-left: 10px;
+                                        color: white;
+                                    }
+                                    
+                                    .image {
+                                        color: white;
+                                        height: 34px;
+                                    }
+                                    
+                                    .l-footer-3,
+                                    .l-footer-4 {
+                                        display: flex;
+                                        margin-top: 20px;
+                                        align-items: center;
+                                        font-size: 13px;
+                                        color: rgb(212, 211, 211);
+                                    }
+                                    
+                                    .img {
+                                        margin-right: 20px;
+                                        height: 15px;
+                                    }
+                                    
+                                    .social-media {
+                                        margin-top: 75px;
+                                        display: flex;
+                                        max-width: 15%;
+                                        justify-content: space-between;
+                                    }
+                                    
+                                    .icon {
+                                        font-size: 30px;
+                                    }
+                                    
+                                    .news-tittle {
+                                        font-size: 18px;
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .r-footer {
+                                        float: left;
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .r-footer-1 {
+                                        margin-top: 20px;
+                                        margin-bottom: 16px;
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .r-footer-3 {
+                                        width: 65%;
+                                        margin-top: 40px;
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .input {
+                                        height: 30px;
+                                        width: 260px;
+                                        border-radius: 5px;
+                                        border-style: none;
+                                        margin-right: 30px;
+                                        max-width: 100%;
+                                    }
+                                    
+                                    input:focus {
+                                        border: none;
+                                    }
+                                    
+                                    .suscribe {
+                                        background-color: var(--light-pink);
+                                        color: white;
+                                        font-weight: 700;
+                                        font-size: 12px;
+                                        border-radius: 5px;
+                                        border: none;
+                                        padding: 8px 28px;
+                                    }
+                                    
+                                    .suscribe:hover {
+                                        cursor: pointer;
+                                        background-color: white;
+                                        color: var(--light-pink);
+                                        border: 1px solid var(--light-pink);
+                                    }
+                                    
+                                    @media(max-width:710px) {
+                                        .rate-box {
+                                            justify-content: center;
+                                        }
+                                        .follows {
+                                            margin-left: 0;
+                                            margin-bottom: 80px;
+                                        }
+                                        .message {
+                                            margin-right: 0;
+                                        }
+                                    }
+                                    
+                                    @media(max-width:710px) {
+                                        follows {
+                                            margin-left: 0;
+                                            margin-bottom: 80px;
+                                        }
+                                    }
+                                    
+                                    @media(max-width:850px) {
+                                        .feat {
+                                            justify-content: center;
+                                        }
+                                        .box {
+                                            max-width: 50%;
+                                            margin-bottom: 50px;
+                                        }
+                                        .img-contain2 {
+                                            margin-bottom: 70px;
+                                        }
+                                    }
+                                    
+                                    @media(max-width:550px) {
+                                        .head-tittle {
+                                            margin: 80px 20px 100px;
+                                        }
+                                    }
